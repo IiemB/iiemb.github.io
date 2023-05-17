@@ -3,9 +3,9 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.ukur.merchant",
+      "package_name": "com.iiemb.croaaster",
       "sha256_cert_fingerprints": [
-        "E6:E4:91:EB:3E:CA:2C:98:36:47:FC:87:67:73:7A:A0:FF:23:98:F0:90:4C:CC:DB:83:FC:33:56:13:D2:E8:F2"
+        "6C:C1:FE:5D:9A:58:C9:9F:D3:4B:77:B6:88:14:52:61:28:EA:5B:E1:0F:C3:CF:33:47:52:ED:23:BB:0C:1D:3D"
       ]
     }
   }
