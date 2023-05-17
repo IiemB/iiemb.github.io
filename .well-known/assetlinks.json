@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ukur.merchant",
+      "sha256_cert_fingerprints": [
+        "E6:E4:91:EB:3E:CA:2C:98:36:47:FC:87:67:73:7A:A0:FF:23:98:F0:90:4C:CC:DB:83:FC:33:56:13:D2:E8:F2"
+      ]
+    }
+  }
+]
