@@ -65,22 +65,38 @@ const config = {
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  // externalProjects: [
-  //   {
-  //     title: 'Project Name',
-  //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-  //     imageUrl: 'https://via.placeholder.com/250x250',
-  //     link: 'https://example.com',
-  //   },
-  //   {
-  //     title: 'Project Name',
-  //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-  //     imageUrl: 'https://via.placeholder.com/250x250',
-  //     link: 'https://example.com',
-  //   },
-  // ],
+  externalProjects: [
+    {
+      title: 'Croaster',
+      description:
+        'ESP8266, MAX6675, SSD1306 for monitor coffee roaster machine',
+      imageUrl: 'https://i.ibb.co/BtSCgP0/icon.png',
+      link: 'https://github.com/IiemB/Croaster',
+    },
+    {
+      title: 'Croaster App',
+      description:
+        'The Croaster App is an App for Croasters, which is a tool used to monitor the roast of your coffee',
+      imageUrl: 'https://i.ibb.co/BtSCgP0/icon.png',
+      link: 'https://play.google.com/store/apps/details?id=com.iiemb.croaster',
+    },
+    {
+      title: 'UKUR - Marketplace Bangunan',
+      description:
+        'UKUR is an online buying and selling application for construction needs such as various building materials and the most complete variety of interior products at transparent prices in Indonesia.',
+      imageUrl:
+        'https://play-lh.googleusercontent.com/eL29eSyM0aasXK4ZulgtAW2nilDi-JEc75BEHYZHCBlitDPoQnbG4Lmf6k8sLQz5jzE=w480-h960-rw',
+      link: 'https://play.google.com/store/apps/details?id=com.ukur',
+    },
+    {
+      title: 'UKUR Merchant',
+      description:
+        'UKUR Merchant is a merchant application for the UKUR.COM marketplace. Manage and monitor merchant activity with the MEUR Merchant application anywhere and anytime via your cellphone.',
+      imageUrl:
+        'https://play-lh.googleusercontent.com/KV5-SaDTyhOjfK9HjfrSdaVSqYmvhi4CReBoi8D7Uu-q-vr9Sx7f7Ks5SeBu29va2R3h=w480-h960-rw',
+      link: 'https://play.google.com/store/apps/details?id=com.ukur.merchant',
+    },
+  ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
   //   source: 'dev', // medium | dev
