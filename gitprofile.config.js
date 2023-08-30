@@ -96,6 +96,13 @@ const config = {
         'https://play-lh.googleusercontent.com/KV5-SaDTyhOjfK9HjfrSdaVSqYmvhi4CReBoi8D7Uu-q-vr9Sx7f7Ks5SeBu29va2R3h=w480-h960-rw',
       link: 'https://play.google.com/store/apps/details?id=com.ukur.merchant',
     },
+    {
+      title: 'Maxchat Omnichannel',
+      description: 'Omnichanel application to make managing your business',
+      imageUrl:
+        'https://play-lh.googleusercontent.com/MrB9EvK67CqLQHdlfeBChQ1AaQuH2M3v5Owl6W79OQWUtYquvP5YOUP2Aylnk0Q7LmaK=w480-h960-rw',
+      link: 'https://play.google.com/store/apps/details?id=com.maxchat.maxchat.app',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
