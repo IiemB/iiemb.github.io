@@ -472,6 +472,7 @@ class CompiledApp {
       _1619: (x0,x1) => x0.append(x1),
       _1620: (x0,x1,x2) => x0.insertRule(x1,x2),
       _1621: f => finalizeWrapper(f, function(x0) { return dartInstance.exports._1621(f,arguments.length,x0) }),
+      _1626: (x0,x1) => x0.createElement(x1),
       _1640: (x0,x1,x2,x3) => x0.open(x1,x2,x3),
       _1654: () => globalThis.removeSplashFromWeb(),
       _1665: x0 => new Array(x0),
@@ -645,6 +646,8 @@ class CompiledApp {
       _1920: x0 => x0.read(),
       _1921: x0 => x0.cancel(),
       _1956: (x0,x1) => x0.log(x1),
+      _1957: (x0,x1) => x0.querySelector(x1),
+      _1958: (x0,x1) => x0.append(x1),
       _1974: (s, m) => {
         try {
           return new RegExp(s, m);
@@ -820,6 +823,9 @@ class CompiledApp {
       _2131: x0 => x0.status,
       _2132: (x0,x1) => x0.responseType = x1,
       _2134: x0 => x0.response,
+      _2488: (x0,x1) => x0.href = x1,
+      _2492: (x0,x1) => x0.rel = x1,
+      _2503: (x0,x1) => x0.type = x1,
       _4005: () => globalThis.window,
       _4047: x0 => x0.self,
       _4070: x0 => x0.navigator,
@@ -829,6 +835,7 @@ class CompiledApp {
       _6706: x0 => x0.signal,
       _6785: () => globalThis.document,
       _6875: (x0,x1) => x0.title = x1,
+      _6880: x0 => x0.head,
       _8610: x0 => x0.value,
       _8612: x0 => x0.done,
       _9332: x0 => x0.url,
