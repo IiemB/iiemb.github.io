@@ -1,0 +1,51 @@
+{
+  "icrm": {
+    "title": "ICRM",
+    "favicon": "/favicon-icrm.ico",
+    "heading": "ICRM",
+    "eyebrow": "Coffee Roasting Monitor",
+    "downloadUrl": "https://play.google.com/store/apps/details?id=com.iiemb.croaster",
+    "downloadLabel": "Download Now",
+    "footer": [
+      {
+        "label": "Terms & Privacy Policy",
+        "href": "/icrm/policies"
+      },
+      {
+        "label": "FAQ",
+        "href": "/icrm/faq"
+      },
+      {
+        "label": "Contact",
+        "href": "mailto:bayyinullah@gmail.com"
+      }
+    ]
+  },
+  "moni": {
+    "title": "Moni - Track Budget & Expense",
+    "favicon": "/favicon-moni.ico",
+    "heading": "Moni",
+    "tagline": "Spend Smarter, Save Better",
+    "footer": [
+      {
+        "label": "Download",
+        "href": "https://play.google.com/store/apps/details?id=com.iiemb.moni"
+      },
+      {
+        "label": "Terms & Privacy Policy",
+        "href": "/moni/policies"
+      },
+      {
+        "label": "FAQ",
+        "href": "/moni/faq"
+      },
+      {
+        "label": "Contact",
+        "href": "mailto:bayyinullah@gmail.com"
+      }
+    ],
+    "downloadUrl": "https://play.google.com/store/apps/details?id=com.iiemb.moni",
+    "downloadLabel": "Download on Google Play"
+  },
+  "notFound": "Page not found"
+}

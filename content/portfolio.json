@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "title": "Portfolio of IiemB",
+    "favicon": "/favicon-portfolio.png"
+  },
+  "github": {
+    "username": "IiemB"
+  },
+  "projects": {
+    "github": {
+      "display": true,
+      "header": "Github Projects",
+      "seeAllLabel": "See all",
+      "automatic": {
+        "sortBy": "stars",
+        "limit": 8,
+        "exclude": {
+          "forks": true,
+          "archived": true,
+          "projects": [
+            "iiemb.github.io"
+          ]
+        }
+      },
+      "manual": null
+    },
+    "external": {
+      "header": "Other Projects",
+      "projects": [
+        {
+          "title": "Tixia - Book Hotel & Flight",
+          "description": "Tixia is an Indonesian travel booking app for cheap flights, hotels, tour packages and visa services. Users can search and book domestic and international flights across major airlines, reserve hotels, explore tour packages and manage their orders in one place, with secure transactions and honest pricing.",
+          "imageUrl": "https://play-lh.googleusercontent.com/_u-wp50oyndlwTT8ZXU7DC3SBGUzDJ192DCSt7iYHgDN5qDyDHjBzCW8pB6BR_rDmTDYd_Df_AQ-izttkKIVXOA=w480-h960",
+          "link": "https://tixia.com/",
+          "appStore": "https://apps.apple.com/id/app/tixia-book-hotel-flight/id6759361494",
+          "playStore": "https://play.google.com/store/apps/details?id=com.tixia"
+        },
+        {
+          "title": "ICRM - Coffee Roasting Monitor",
+          "description": "ICRM is a mobile app designed to connect with a Croaster to monitor and manage coffee roasting in real time. It helps coffee enthusiasts and professionals control and document their roasting process more effectively.",
+          "imageUrl": "https://play-lh.googleusercontent.com/JlUXkI1eciAMIcvlgcyo9DgUFKS5ypLpi810_-7OEGPifTKzi9TWBwBjBxSzWLM8N5uK=w480-h960",
+          "link": "",
+          "appStore": "",
+          "playStore": "https://play.google.com/store/apps/details?id=com.iiemb.croaster"
+        },
+        {
+          "title": "Moni - Track Budget & Expense",
+          "description": "Moni is a personal finance app designed to help users manage their budgets, track expenses, and save money. It offers easy budget creation, real-time transaction logging, and detailed visualizations to monitor spending habits.",
+          "imageUrl": "https://play-lh.googleusercontent.com/AvvFcoBfF4j0Mdo--w7L7v4gPWUvAM5mo5qwKyPiczGo2evd68pmDZ2GFaHRDa0beqSA=w480-h960",
+          "link": "",
+          "appStore": "",
+          "playStore": "https://play.google.com/store/apps/details?id=com.iiemb.moni"
+        },
+        {
+          "title": "UKUR - Marketplace Bangunan",
+          "description": "UKUR is an Indonesian app for buying and selling construction and interior products at clear prices. It offers professional measurement and installation services, secure transactions, and easy payments with 0% installments, connecting buyers and sellers seamlessly.",
+          "imageUrl": "https://play-lh.googleusercontent.com/eL29eSyM0aasXK4ZulgtAW2nilDi-JEc75BEHYZHCBlitDPoQnbG4Lmf6k8sLQz5jzE=w480-h960",
+          "link": "",
+          "appStore": "",
+          "playStore": "https://play.google.com/store/apps/details?id=com.ukur"
+        },
+        {
+          "title": "UKUR Merchant",
+          "description": "UKUR Merchant is a mobile app for merchants on the UKUR.COM marketplace in Indonesia. It allows sellers to manage their business on the go, with features like responding to orders, uploading and editing products, and checking transaction history, all from their phone.",
+          "imageUrl": "https://play-lh.googleusercontent.com/KV5-SaDTyhOjfK9HjfrSdaVSqYmvhi4CReBoi8D7Uu-q-vr9Sx7f7Ks5SeBu29va2R3h=w480-h960",
+          "link": "",
+          "appStore": "",
+          "playStore": "https://play.google.com/store/apps/details?id=com.ukur.merchant"
+        },
+        {
+          "title": "UKUR Cari",
+          "description": "Ukur Cari is a location-based search app in Indonesia designed to help users quickly find nearby products, services, and shops. It offers an intuitive interface, accurate geolocation searches, and a wide range of categories like food, building materials, electronics, fashion, automotive, and health.",
+          "imageUrl": "https://play-lh.googleusercontent.com/SeTGhJP3Te07mJlOVnU8UddfNtcx5JBuGMUptkQomqNTV501ohJRlTEvRBVWIXNJMRM=w480-h960",
+          "link": "",
+          "appStore": "",
+          "playStore": "https://play.google.com/store/apps/details?id=com.ukur.cari"
+        },
+        {
+          "title": "Maxchat Omnichannel",
+          "description": "Maxchat Omnichannel is an omnichannel platform offering WhatsApp API, CRM, and integrated system services to enhance business communication. It provides features like unlimited message broadcasts, chatbots, and integration with platforms like WhatsApp, Telegram, Instagram, and more",
+          "imageUrl": "https://play-lh.googleusercontent.com/MrB9EvK67CqLQHdlfeBChQ1AaQuH2M3v5Owl6W79OQWUtYquvP5YOUP2Aylnk0Q7LmaK=w480-h960",
+          "link": "",
+          "appStore": "",
+          "playStore": "https://play.google.com/store/apps/details?id=com.maxchat.maxchat.app"
+        },
+        {
+          "title": "MVICALL - Express Your Call!",
+          "description": "MViCall is a communication app that lets users set personalized video ringtones (videotones) from their gallery, self-recorded videos, or the MviCall Marketplace, which appear on friends' phones during calls.",
+          "imageUrl": "https://play-lh.googleusercontent.com/eBf1IWysid70IS6VCwikKzvzuGRAky8MzRHP3htMkHx0kz3AHAWfQ88QG1KzSrDZY14=w480-h960",
+          "link": "",
+          "appStore": "",
+          "playStore": "https://play.google.com/store/apps/details?id=com.sbimv.mvicalls&hl=en"
+        }
+      ]
+    }
+  },
+  "social": {
+    "x": "iiem_21",
+    "linkedin": "iiemb",
+    "reddit": "iiemb",
+    "email": "bayyinullah@gmail.com"
+  },
+  "resume": null,
+  "skills": [
+    "Dart",
+    "Flutter",
+    "SwiftUI",
+    "C++",
+    "Python",
+    "Git",
+    "Firebase"
+  ],
+  "experiences": [
+    {
+      "company": "PT. Monarch Inti Teknologi",
+      "position": "Mobile App Developer",
+      "from": "2025-07",
+      "to": null,
+      "companyLink": "https://monarchintiteknologi.com/about-us"
+    },
+    {
+      "company": "PT. Ukur Kreasi Nusantara",
+      "position": "Sr. Mobile App Developer",
+      "from": "2023-01",
+      "to": "2025-05",
+      "companyLink": "https://www.ukur.com/about"
+    },
+    {
+      "company": "PT. Ukur Kreasi Nusantara",
+      "position": "Mobile App Developer",
+      "from": "2022-03",
+      "to": "2022-12",
+      "companyLink": "https://www.ukur.com/about"
+    },
+    {
+      "company": "PT. Ina Satu Tujuh",
+      "position": "Mobile App Developer",
+      "from": "2021-10",
+      "to": "2021-12",
+      "companyLink": "https://www.ina17.com/"
+    }
+  ],
+  "certifications": [],
+  "educations": [
+    {
+      "institution": "University of Muhammadiyah Prof. DR. HAMKA",
+      "degree": "Bachelor of Informatics Technology",
+      "from": null,
+      "to": "2021-01",
+      "institutionLink": "https://www.uhamka.ac.id/"
+    }
+  ],
+  "publications": []
+}

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NFCTools Plus · IiemB Repo</title>
+<meta name="description" content="Control Center quick-emulate tiles for NFCTools">
+<meta name="theme-color" content="#F5F4EF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0D1210" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="NFCTools Plus · IiemB Repo">
+<meta property="og:description" content="Control Center quick-emulate tiles for NFCTools">
+<meta property="og:image" content="https://iiemb.github.io/repo/CydiaIcon.png">
+<link rel="icon" href="../../CydiaIcon.png">
+<link rel="apple-touch-icon" href="../../CydiaIcon.png">
+<link rel="stylesheet" href="../../style.css">
+<style>:root { --tint-light: #1F6B45; --tint-dark: #6FCF98; }</style>
+</head>
+<body>
+<main class="home depiction">
+  <a class="back" href="../../">← IiemB Repo</a>
+  
+  <header class="package-head">
+    <img class="icon lg" src="../../assets/com.iiemb.nfctoolsplus/icon.png" alt="">
+    <div>
+      <h1>NFCTools Plus</h1>
+      <p class="muted">Control Center quick-emulate tiles for NFCTools</p>
+      <p class="meta"><span class="mono muted">v0.7.13~beta+100</span><span class="badge">Rootless</span><span class="badge">Roothide</span></p>
+    </div>
+  </header>
+  
+  <section class="widget prose"><p><strong>NFCTools Plus</strong> is the jailbreak companion for the NFCTools app. It brings quick-access virtual tag emulation straight into iOS system surfaces, for rootless and RootHide jailbreaks.</p>
+<p>Tag data comes from the NFCTools app — assign tiles to saved tags in <strong>NFCTools › Settings</strong>. Ships as a tweak only; the NFCTools app itself is installed separately as an <code>.ipa</code> through TrollStore.</p>
+<h3>Control Center quick emulation</h3>
+<ul><li>Four Control Center tiles ("NFC Tag 1–4") start emulating their assigned tag from anywhere, even with the screen locked.</li><li>A floating on-screen HUD shows the active tag name, UID, a radiating transmission wave, and a quick Stop action.</li><li>Emulation always stops on its own after 5–30 seconds (default 10).</li></ul>
+<h3>Command-line tool (<code>nfctools</code>)</h3>
+<p>A privileged CLI over Terminal or SSH:</p>
+<ul><li><code>nfctools emulate &lt;tile 1-4 | uuid | uid | name&gt;</code> — start emulating a tag</li><li><code>nfctools stop</code> — stop the active emulation</li><li><code>nfctools list [-v]</code> — list saved tags and tile assignments</li><li><code>nfctools assign &lt;tile 1-4&gt; &lt;name|uid|uuid|none&gt;</code> — assign a tag to a tile</li><li><code>nfctools autostop [5-30]</code> — get or set the auto-stop countdown</li><li><code>nfctools status</code> — show the current emulation state</li></ul>
+<h3>Requirements</h3>
+<ul><li>A rootless (Dopamine, palera1n) or RootHide jailbreak.</li><li>The <strong>NFCTools</strong> app installed separately (via TrollStore).</li><li>An iPhone whose NFC controller supports direct access (e.g. iPhone 12 / 13 and newer). The app's Diagnostics page tells you whether your device can use each feature.</li></ul></section>
+  <section class="widget">
+    <span class="label">Information</span>
+    <dl class="info"><div><dt>Version</dt><dd>0.7.13~beta+100</dd></div><div><dt>Developer</dt><dd>IiemB</dd></div><div><dt>Section</dt><dd>Tweaks</dd></div><div><dt>Jailbreak</dt><dd>Rootless, Roothide</dd></div><div><dt>Compatibility</dt><dd>iOS 15.0+</dd></div><div><dt>Size</dt><dd>628.3 KB</dd></div><div><dt>Bundle ID</dt><dd>com.iiemb.nfctoolsplus</dd></div></dl>
+  </section>
+  <section class="widget prose"><span class="label">Changelog</span><h3>0.7.13</h3>
+<p><strong>Added</strong></p>
+<ul><li>Notes on saved tags: give any tag a private note from the Edit screen. It shows at the top of the tag's details, above the properties, and only when it isn't empty. Only you can see it.</li></ul>
+<h3>0.7.12</h3>
+<p><strong>Fixed</strong></p>
+<ul><li>Apple Pay after emulating from a Control Center tile: the 0.7.11 fix still didn't bring Apple Pay back right away. NFCTools now restarts the phone's NFC service a different way when emulation ends (report <code>2B660F42</code>).</li></ul>
+<h3>0.7.11</h3>
+<p><strong>Added</strong></p>
+<ul><li>Tap Card to Emulate (Settings › Tags): tap a card on Home to start emulating it. The button in the card's corner then opens the tag's details. Off by default.</li></ul>
+<p><strong>Fixed</strong></p>
+<ul><li>Apple Pay after emulating from a Control Center tile: the 0.7.9 fix crashed before it could run. It now runs (report <code>54B428E2</code>).</li></ul>
+<h3>0.7.10</h3>
+<p><strong>Added</strong></p>
+<ul><li>A one-time card on Home asks whether everything works on your device. Your answer, with your device model and iOS version, goes to the developer. If something isn't working, Diagnostics opens so you can send a report.</li></ul>
+<h3>0.7.9</h3>
+<p><strong>Fixed</strong></p>
+<ul><li>Apple Pay no longer stops working after you emulate a tag from a Control Center tile.</li></ul>
+<h3>0.7.8</h3>
+<p><strong>Added</strong></p>
+<ul><li>Help translate NFCTools: Settings › Language now links to the translation guide on GitHub.</li></ul>
+<h3>0.7.7</h3>
+<p><strong>Fixed</strong></p>
+<ul><li>Another attempt at "Can't Start Reader (Busy)" on iOS 17.3.1. If you still see it, please send a report from Diagnostics.</li></ul>
+<h3>0.7.6</h3>
+<p><strong>Changed</strong></p>
+<ul><li>The Ko-fi link in Settings is now a banner at the top of the page.</li></ul>
+<h3>0.7.5</h3>
+<p><strong>Added</strong></p>
+<ul><li>Support on Ko-fi: a new link in Settings › About if you'd like to support development.</li></ul>
+<p><strong>Fixed</strong></p>
+<ul><li>Widget reliability improvements on iOS 17 and later.</li></ul>
+<p><strong>Changed</strong></p>
+<ul><li>The Diagnostics "Widgets" check now also reports whether the widget can read its tag data, so a Send Report can pinpoint why a widget shows no icon. If your widget icon isn't showing, please open Settings › Diagnostics and send a report.</li></ul>
+<h3>0.7.4</h3>
+<p><strong>Added</strong></p>
+<ul><li>Send Report now has an optional Contact field, so we can reply to you about your report.</li><li>Reports can include attachments: recent crash logs from NFCTools (included by default, with a switch to leave them out), plus up to 4 photos or files. Like the log, attachments are encrypted so only the developer can read them.</li></ul>
+<p><strong>Fixed</strong></p>
+<ul><li>"Can't Start Reader… (Busy)" on some devices, notably iOS 17.3.1. If you still see it on this version, please send a report.</li></ul>
+<h3>0.7.3</h3>
+<p><strong>Changed</strong></p>
+<ul><li>"Update Available" is now a card on top of your tags, with a Download button. Swipe it aside like any card, or tap ✕ to hide it until the next release.</li></ul>
+<h3>0.7.2</h3>
+<p><strong>Added</strong></p>
+<ul><li>A tag you read and save now gets a random card color, different from your other tags where possible. You can still change it.</li></ul>
+<p><strong>Changed</strong></p>
+<ul><li>New Home: your saved tags are now a stack of cards in each tag's color and icon. Swipe left or right to move through them (it loops), and tap <strong>▶</strong> on a card to emulate it.</li><li>Tap a card to open it: it grows into the tag's details. Tap the card, or pull down and let go, to go back.</li><li>In a tag's details, the buttons are <strong>Emulate</strong>, <strong>Records</strong>, <strong>Write</strong> and <strong>More</strong>. <strong>Update from Tag</strong> and the other actions are in <strong>More</strong>.</li><li>Add and Settings are now buttons below the cards.</li><li><strong>Reorder Tags</strong> and <strong>Export All Tags</strong> moved to Settings › Tags.</li><li>Settings now opens as a sheet.</li><li>New Read screen: waves at the top of the screen show where the iPhone's NFC reader is, so you know where to hold the tag.</li><li>New Emulate screen: shows the tag's card, and flashes and vibrates when a reader touches your iPhone.</li><li>Write, Update from Tag and Clone now use the same screen as Read, each in its own color, showing the saved tag's card.</li></ul>
+<p><strong>Fixed</strong></p>
+<ul><li>Reading a tag no longer closes the Read screen straight away when the NFC service is busy and NFCTools restarts it.</li><li>If the NFC service doesn't answer, the Read screen now closes with a message after a few seconds instead of staying on "Starting reader…".</li></ul>
+<p><strong>Removed</strong></p>
+<ul><li>Search on Home.</li></ul>
+<h3>0.6.19</h3>
+<p><strong>Added</strong></p>
+<ul><li>Home now tells you when a new version is available on GitHub, with a <strong>Download</strong> button for the release. Close it to hide it until the next version.</li><li><strong>Check for Updates</strong> in Settings › Support checks GitHub right away and tells you whether a new version is available.</li></ul>
+<h3>0.6.18</h3>
+<p><strong>Added</strong></p>
+<ul><li>NFCTools Plus now shows the app icon next to its tiles in Settings › Control Center, and in Sileo / Zebra.</li><li>Customize the NFCTools Plus emulation overlay: choose Pill, Compact, Island, Card, Bubble or Hidden, top, center or bottom of the screen, how it animates in (Drop, Pop, Fade or None), and a countdown bar that empties until auto-stop.</li><li>The NFCTools Plus overlay now shows the emulated tag's own icon and color. Tap <strong>Preview Overlay</strong> to see it.</li></ul>
+<p><strong>Changed</strong></p>
+<ul><li>NFCTools Plus settings now open in their own page from Settings.</li></ul>
+<p><strong>Fixed</strong></p>
+<ul><li>Tapping <strong>Read tag</strong> no longer does nothing when the reader can't start: an alert now explains why (reports <code>99FAD258</code>, <code>AABBB3E8</code>).</li><li>When the NFC service keeps answering "Busy", the app no longer restarts it on every tap, which briefly took down Apple Pay and other NFC features. Tag reading on iOS 17.3 and later is still being investigated.</li><li>If the app wasn't installed with TrollStore, it now says so instead of failing silently. TrollStore is the only supported install method.</li><li>NFCTools Plus no longer fills the log with a line every time the screen locks.</li></ul>
+<h3>0.6.17</h3>
+<p><strong>Added</strong></p>
+<ul><li>New <strong>What's New</strong> page in Settings › Support shows this changelog, with your installed version marked "Current".</li></ul>
+<p><strong>Changed</strong></p>
+<ul><li>Terms of Use and Privacy Policy are now kept as Markdown files in <a href="https://github.com/IiemB/NFCTools/tree/main/content/legal"><code>content/legal/</code></a>, so they're easier to read on GitHub.</li><li>What's New and Terms &amp; Privacy always load the latest text from GitHub. If they can't load, tap <strong>Try Again</strong> or <strong>View on GitHub</strong>.</li><li>A placeholder now shows while these pages load, instead of a spinner.</li></ul>
+<h3>0.6.16</h3>
+<p><strong>Fixed</strong></p>
+<ul><li>Tried to fix the app still crashing about 2 seconds after starting tag emulation on iOS 15 (report <code>A6537168</code>).</li></ul>
+<h3>0.6.15</h3>
+<p><strong>Fixed</strong></p>
+<ul><li>Tried to fix immediate crash when starting tag emulation on iOS 15 (report <code>BE92E2AA</code>).</li></ul>
+<h3>0.6.14</h3>
+<p><strong>Fixed</strong></p>
+<ul><li>Tried to fix tag scanning failing or not detecting tags on iOS 17.3+ and iOS 18 (reports <code>38C4C61C</code> and <code>8A6AADDC</code>).</li></ul>
+<h3>0.6.13</h3>
+<p><strong>Fixed</strong></p>
+<ul><li>Tried to fix the iPhone freezing when emulating with NFCTools Plus (report <code>2A08D941</code>, iPhone 15 Pro, iOS 17). Please test and tell me if it still happens.</li></ul>
+<p><strong>Changed</strong></p>
+<ul><li>Auto-stop is now always on. Pick 5 to 30 seconds in Settings (default is 10 seconds). The "None" option is gone.</li><li><code>nfctools autostop</code> now takes a number from 5 to 30.</li></ul></section>
+  <p class="mono muted center">iiemb.github.io</p>
+</main>
+
+</body>
+</html>

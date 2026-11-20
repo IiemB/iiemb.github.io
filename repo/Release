@@ -1,0 +1,24 @@
+Origin: IiemB Repo
+Label: IiemB Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Date: Fri, 20 Nov 2026 08:55:28 GMT
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Small, focused iOS tweaks, built and maintained by IiemB.
+MD5Sum:
+ f278421b54517c9535366f902a787d70     4521 Packages
+ cc9c3515fcff0c0ccb6a7b8b306ee486     1534 Packages.bz2
+ 7bc4f61d6d6fcde22fdbacbaf9277b86     1265 Packages.gz
+ 9cb6865caca43998ef2a00b1dffdf2c1     1308 Packages.xz
+SHA1:
+ e54c7915b45732f32718fca9888b340d5685bdb5     4521 Packages
+ fa84aace329accc4e03e3b93ec6e4fa0182ac013     1534 Packages.bz2
+ 80db01e27eb1844a41ecd5ba914dd8960ad58522     1265 Packages.gz
+ 5745ee965ca770a122f4bb3c46245f499934e066     1308 Packages.xz
+SHA256:
+ 4f2aa61ac2e219213f5ab5f6ebc266a7da9fb031e22a627cd985b26a8f45f0b5     4521 Packages
+ 61355d13472fca5860f56cf3ec6ded07d7369f3252c92c1998f88ad39fedc4c6     1534 Packages.bz2
+ 522f83833c1ea04ec4d2eab7b7d77c1c72ad582e33029c67c9f0193257a288f8     1265 Packages.gz
+ 36f9e4bd2ece45a31e3580f1544e4372c08cd5a682346881c686a23d9ba2b687     1308 Packages.xz
