@@ -1,3 +1,45 @@
+Package: com.iiemb.iikit
+Name: iiKit
+Description: All-in-one personal jailbreak tweak suite for rootless and roothide (Dopamine) — every feature can be enabled or disabled in Settings → iiKit: clean Home Screen & Folder labels/TestFlight dots, no Home Screen Today View, clean Lock Screen (no Flashlight/Camera/Today View/Camera swipe/long-press wallpaper edit), transparent Dock & global Home Bar, double-tap to sleep, silent Phone keypad, swipe down in App Switcher to close all apps, OLED black keyboard, and a 1x1 Control Center tile that opens any URL you configure.
+Maintainer: iiemb
+Author: iiemb
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Replaces: com.iiemb.aiotweaks
+Conflicts: com.iiemb.aiotweaks
+Provides: com.iiemb.aiotweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 580
+Filename: debs/com.iiemb.iikit_1.0.0_iphoneos-arm64.deb
+Size: 44452
+MD5sum: 6046fcc99543f6e4db44a9f2af983671
+SHA1: c9f81c60366d48053ea62da58c3039b55fad4c8a
+SHA256: 033bba008048a6c84e8e9920babaa6f2684ff533c09603bbf4af8a05be7ea900
+Depiction: https://iiemb.github.io/repo/depictions/com.iiemb.iikit/
+SileoDepiction: https://iiemb.github.io/repo/depictions/com.iiemb.iikit/sileo.json
+
+Package: com.iiemb.iikit
+Name: iiKit
+Description: All-in-one personal jailbreak tweak suite for rootless and roothide (Dopamine) — every feature can be enabled or disabled in Settings → iiKit: clean Home Screen & Folder labels/TestFlight dots, no Home Screen Today View, clean Lock Screen (no Flashlight/Camera/Today View/Camera swipe/long-press wallpaper edit), transparent Dock & global Home Bar, double-tap to sleep, silent Phone keypad, swipe down in App Switcher to close all apps, OLED black keyboard, and a 1x1 Control Center tile that opens any URL you configure.
+Maintainer: iiemb
+Author: iiemb
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Replaces: com.iiemb.aiotweaks
+Conflicts: com.iiemb.aiotweaks
+Provides: com.iiemb.aiotweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 580
+Filename: debs/com.iiemb.iikit_1.0.0_iphoneos-arm64e.deb
+Size: 44476
+MD5sum: c3067e50d22882aca6d93bcf79d6a222
+SHA1: 5936a46ae02bb89d362d3cf6ab138e317c080b73
+SHA256: c71e741f46b21194161e47d219d0b3e15ec1fc95bc871fd776318b5f2051e392
+Depiction: https://iiemb.github.io/repo/depictions/com.iiemb.iikit/
+SileoDepiction: https://iiemb.github.io/repo/depictions/com.iiemb.iikit/sileo.json
+
 Package: com.iiemb.nfctools
 Name: NFCTools
 Version: 0.7.13~beta+209

@@ -1,0 +1,73 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#1F6B45",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "tintColor": "#1F6B45",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**iiKit** is a set of small tweaks that clean up and improve iOS, all in one package. Turn each feature on or off in **Settings \u203a iiKit**, then tap **Respring Now**.\n\n## Home Screen\n- Hide app and folder labels, plus the TestFlight, \"recently updated\" and offloaded-app dots.\n- Disable the Today View widget page.\n\n## Lock Screen\n- Remove the Flashlight and Camera buttons.\n- Disable the Today View and Camera swipes.\n- Disable the press-and-hold wallpaper switcher.\n- Stop the camera from getting ready when you touch the right edge.\n\n## Appearance\n- Transparent Dock.\n- Transparent Home Bar everywhere. Swipe gestures still work.\n- Pure black OLED keyboard in every app.\n\n## Gestures\n- Double-tap an empty part of the Home Screen or Lock Screen to lock your device.\n- In the App Switcher, pull any app card down to close all apps.\n\n## Phone\n- Silent keypad: no tones when you dial.\n\n## Control Center\n- **Open URL** tile: a 1\u00d71 tile that opens any link you set in Settings \u203a iiKit, such as a website, `shortcuts://` or `prefs:`. Needs CCSupport.\n\nSource code: [github.com/IiemB/iiKit](https://github.com/IiemB/iiKit)",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "iiemb"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Section",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Jailbreak",
+          "text": "Rootless, Roothide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 15.0+"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Size",
+          "text": "43.4 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Bundle ID",
+          "text": "com.iiemb.iikit"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "tintColor": "#1F6B45",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 1.0.0\n\n**Initial release**\n- Clean Home Screen and Lock Screen: hide labels and dots, remove the Today View, Flashlight and Camera buttons.\n- Transparent Dock and Home Bar, plus a pure black OLED keyboard.\n- Double-tap to sleep, swipe down to close all apps, silent Phone keypad and an Open URL Control Center tile.",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
