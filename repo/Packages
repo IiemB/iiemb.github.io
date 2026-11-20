@@ -11,6 +11,7 @@ Provides: com.iiemb.aiotweaks
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Installed-Size: 580
+Icon: https://iiemb.github.io/repo/assets/com.iiemb.iikit/icon.png
 Filename: debs/com.iiemb.iikit_1.0.0_iphoneos-arm64.deb
 Size: 44452
 MD5sum: 6046fcc99543f6e4db44a9f2af983671
@@ -32,6 +33,7 @@ Provides: com.iiemb.aiotweaks
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Installed-Size: 580
+Icon: https://iiemb.github.io/repo/assets/com.iiemb.iikit/icon.png
 Filename: debs/com.iiemb.iikit_1.0.0_iphoneos-arm64e.deb
 Size: 44476
 MD5sum: c3067e50d22882aca6d93bcf79d6a222

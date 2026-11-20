@@ -3,22 +3,22 @@ Label: IiemB Repo
 Suite: stable
 Version: 1.0
 Codename: ios
-Date: Fri, 20 Nov 2026 15:35:50 GMT
+Date: Fri, 20 Nov 2026 15:45:31 GMT
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Small, focused iOS tweaks, built and maintained by IiemB.
 MD5Sum:
- f8dcff9f3ddf488e6e8b7cc0d68b995e     7001 Packages
- edf49db7c4482302897588be4159ef2c     2265 Packages.bz2
- 43e2a40931daae8819acf2c5c44cb9b8     1920 Packages.gz
- 46910fa5af869318c1e628b15c069999     1920 Packages.xz
+ db14452d1a785ada1211449caa2583c3     7135 Packages
+ 1ac1aea6bebb76515bc3a37097042690     2284 Packages.bz2
+ 3525121d639a83c20cdd8e189ea675a9     1923 Packages.gz
+ d316e98c10d740c1cb4576e1fe702fa9     1924 Packages.xz
 SHA1:
- adbb803ea0b302fbd2fa7add65177c5662794627     7001 Packages
- eaab3c85bf71d8f919e839c5b56072c959141660     2265 Packages.bz2
- b7ca1ee4323b174efe08f181798bfad1bd9c2107     1920 Packages.gz
- 838fd36a2cc2a0379b563154bc078841c40fadc7     1920 Packages.xz
+ fef2e87c9ef7f49e89cac58d62bba41c9202bddf     7135 Packages
+ fa0c5e6f4bd91bb46e722a5df1eea8f64b5c496c     2284 Packages.bz2
+ 22c710e0c2df5e0f27c2261792fcbbbf0fb78f5d     1923 Packages.gz
+ bd86925f7442303fc1930a85aa654dae419da8cc     1924 Packages.xz
 SHA256:
- 05957c7372d6e169f1892b08b78a44f8b71c86e03d1d418cee2a66233f6ce6fd     7001 Packages
- d427852c2540cdde4343827d5c26ca9a5eb05fbf4f5c42c27d55294fe9439cd9     2265 Packages.bz2
- 489a786bd0c83f92eebe0f3f038024d2da6b33619f4169e361556ef5e0056ea5     1920 Packages.gz
- 60bee02cf69dde399bf3c4fcb90dcb44db3cf0a92bcc393cdda2dea428280577     1920 Packages.xz
+ 92cdd0687e3e2753d5d84174e14471e6c94793a90fe7a3eda7432f421d1375a0     7135 Packages
+ 42d38d6afe96328e908e7e4669c1fbfa08a49f2e4f0b3825f0ab569020f0d777     2284 Packages.bz2
+ 7f41c20d642e1abbd31c627d1af01b744d27d93a2a21312eb63a42bd70f12fea     1923 Packages.gz
+ dcfd5c01d3dd410129e190d637035cd28c5ce31052db754cdd3bcf7fe2d83d97     1924 Packages.xz
