@@ -56,15 +56,11 @@ svg { display: block; }
   gap: 16px;
 }
 
-/* Top bar and intro */
+/* Top bar */
 .topbar { display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; }
 .brand img { width: 28px; height: 28px; border-radius: 8px; }
 .today { font-size: 12px; font-weight: 400; color: var(--muted); }
-.intro { padding: 14px 4px 6px; display: flex; flex-direction: column; gap: 8px; }
-.intro h1 { font-size: 34px; line-height: 38px; font-weight: 800; letter-spacing: -0.024em; }
-.intro .accent { color: var(--primary); }
-.intro p { color: var(--muted); font-size: 15px; line-height: 22px; }
 
 /* Widgets */
 .widget {
@@ -77,14 +73,6 @@ svg { display: block; }
   gap: 12px;
 }
 .label { font: 400 11px var(--mono); letter-spacing: 0.11em; text-transform: uppercase; color: var(--muted); }
-.widgets { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.widget.small { justify-content: space-between; min-height: 166px; min-width: 0; }
-a.widget.small { transition: border-color 0.15s; }
-a.widget.small:hover { border-color: var(--primary); }
-.big { font-size: 56px; line-height: 1; font-weight: 800; letter-spacing: -0.035em; color: var(--primary); }
-.widget.small .stack.mono { font-size: 12px; }
-.strong { font-weight: 700; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.widget.small .muted { font-size: 12px; }
 
 .source .url { font: 600 15px var(--mono); overflow-wrap: anywhere; }
 .source-actions { display: flex; gap: 8px; }
@@ -145,33 +133,31 @@ img.icon { display: block; }
 .search input { flex: 1; min-width: 0; height: 46px; border: 0; outline: 0; background: transparent; color: var(--text); font-size: 16px; }
 .search input::placeholder { color: var(--muted); }
 .search input::-webkit-search-cancel-button { filter: grayscale(1); }
-.segmented { display: flex; gap: 2px; padding: 3px; border-radius: 12px; background: var(--surface-2); }
-.segmented button { flex: 1; height: 32px; border: 0; border-radius: 9px; background: transparent; color: var(--muted); font-weight: 600; font-size: 13px; cursor: pointer; }
-.segmented button.active { background: var(--surface); color: var(--text); font-weight: 700; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16); }
-.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px 8px; padding: 8px 4px 4px; }
-.tile { display: flex; flex-direction: column; align-items: center; gap: 7px; min-width: 0; }
-.tile-icon { position: relative; display: block; transition: transform 0.15s; }
-.tile:active .tile-icon { transform: scale(0.94); }
-.tile-name { font-size: 12px; font-weight: 600; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.new-badge {
-  display: none; position: absolute; top: -7px; right: -8px;
-  font-size: 9px; font-weight: 600; color: #fff; background: var(--badge);
-  padding: 2px 6px; border-radius: 9px; box-shadow: 0 0 0 2px var(--bg);
-}
-.tile.is-new .new-badge { display: block; }
+.list { background: var(--surface); border: 1px solid var(--border); border-radius: 24px; padding: 4px 16px; }
+.list[hidden] { display: none; }
+.row { display: flex; align-items: center; gap: 12px; padding: 12px 0; }
+.row[hidden] { display: none; }
+.row:not([hidden]) ~ .row:not([hidden]) { border-top: 1px solid var(--border); }
+.row:active { opacity: 0.6; }
+.icon.sm { width: 48px; height: 48px; border-radius: 12px; }
+.icon.sm.placeholder { font-size: 20px; }
+.row-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.row-name { display: flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 700; min-width: 0; }
+.row-name > span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.row-tagline { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.row-chips { display: flex; flex-wrap: wrap; gap: 6px; padding-top: 3px; }
+.row-chips:empty { display: none; }
+.chevron { flex: none; font-size: 22px; font-weight: 600; line-height: 1; color: var(--muted); }
+.new-badge { display: none; flex: none; font-size: 9px; font-weight: 600; color: #fff; background: var(--badge); padding: 2px 6px; border-radius: 9px; }
+.row.is-new .new-badge { display: inline-block; }
 .empty { padding: 28px 16px; text-align: center; color: var(--muted); background: var(--surface); border: 1px solid var(--border); border-radius: 24px; }
 
-/* Dock */
-.dock-area { padding-top: 14px; display: flex; flex-direction: column; align-items: center; gap: 12px; }
-.dock { display: flex; gap: 18px; padding: 12px; border-radius: 28px; background: var(--surface-2); border: 1px solid var(--border); }
-.dock-item { width: 54px; height: 54px; border-radius: 14px; display: inline-flex; align-items: center; justify-content: center; color: #fff; overflow: hidden; transition: transform 0.15s; }
-.dock-item:active { transform: scale(0.94); }
-.dock-item.github { background: #24292F; }
-.dock-item.github svg { width: 26px; height: 26px; }
-.dock-item.mail { background: linear-gradient(135deg, #3FA86F, #1F6B45); }
-.dock-item.mail svg { width: 24px; height: 19px; }
-.dock-item.site img { width: 100%; height: 100%; object-fit: cover; }
-.dock-area p { font-size: 11px; }
+/* Footer */
+.footer { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 24px; border-top: 1px solid var(--border); }
+.footer .mark { color: var(--muted); font-size: 13px; font-weight: 800; }
+.footer nav { display: flex; gap: 24px; flex-wrap: wrap; font-size: 12px; font-weight: 500; }
+.footer nav a { color: var(--text); text-decoration: none; }
+.footer nav a:hover { color: var(--primary); }
 
 /* Package page */
 .depiction { gap: 18px; }
@@ -196,11 +182,6 @@ img.icon { display: block; }
 .info dt { color: var(--muted); }
 .info dd { text-align: right; overflow-wrap: anywhere; }
 
-@media (max-width: 360px) {
-  .intro h1 { font-size: 29px; line-height: 33px; }
-  .grid { gap: 16px 4px; }
-  .icon { width: 56px; height: 56px; border-radius: 14px; }
-}
 @media (max-width: 480px) {
   .package-head { align-items: flex-start; }
   .icon.lg { width: 68px; height: 68px; border-radius: 16px; }
