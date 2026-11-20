@@ -23,7 +23,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.0"
+          "text": "1.0.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -64,7 +64,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "## 1.0.0\n\n**Initial release**\n- Clean Home Screen and Lock Screen: hide labels and dots, remove the Today View, Flashlight and Camera buttons.\n- Transparent Dock and Home Bar, plus a pure black OLED keyboard.\n- Double-tap to sleep, swipe down to close all apps, silent Phone keypad and an Open URL Control Center tile.",
+          "markdown": "## 1.0.1\n\n**Changed**\n- New iiKit icon in Sileo, Zebra and the repo page.\n\n## 1.0.0\n\n**Initial release**\n- Clean Home Screen and Lock Screen: hide labels and dots, remove the Today View, Flashlight and Camera buttons.\n- Transparent Dock and Home Bar, plus a pure black OLED keyboard.\n- Double-tap to sleep, swipe down to close all apps, silent Phone keypad and an Open URL Control Center tile.",
           "useSpacing": true
         }
       ]

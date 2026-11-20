@@ -9,14 +9,14 @@ Replaces: com.iiemb.aiotweaks
 Conflicts: com.iiemb.aiotweaks
 Provides: com.iiemb.aiotweaks
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 580
 Icon: https://iiemb.github.io/repo/assets/com.iiemb.iikit/icon.png
-Filename: debs/com.iiemb.iikit_1.0.0_iphoneos-arm64.deb
-Size: 44452
-MD5sum: 6046fcc99543f6e4db44a9f2af983671
-SHA1: c9f81c60366d48053ea62da58c3039b55fad4c8a
-SHA256: 033bba008048a6c84e8e9920babaa6f2684ff533c09603bbf4af8a05be7ea900
+Filename: debs/com.iiemb.iikit_1.0.1_iphoneos-arm64.deb
+Size: 44424
+MD5sum: a88b8758a7484c7d30c0b182ed74557e
+SHA1: 90297436747063d86770f9f12601c13b2010ffbc
+SHA256: 232791b0ac1a57a1b4b229a1533007994e5df7fd10bc7fa84d4dfeb0c459d33c
 Depiction: https://iiemb.github.io/repo/depictions/com.iiemb.iikit/
 SileoDepiction: https://iiemb.github.io/repo/depictions/com.iiemb.iikit/sileo.json
 
@@ -31,14 +31,14 @@ Replaces: com.iiemb.aiotweaks
 Conflicts: com.iiemb.aiotweaks
 Provides: com.iiemb.aiotweaks
 Architecture: iphoneos-arm64e
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 580
 Icon: https://iiemb.github.io/repo/assets/com.iiemb.iikit/icon.png
-Filename: debs/com.iiemb.iikit_1.0.0_iphoneos-arm64e.deb
-Size: 44476
-MD5sum: c3067e50d22882aca6d93bcf79d6a222
-SHA1: 5936a46ae02bb89d362d3cf6ab138e317c080b73
-SHA256: c71e741f46b21194161e47d219d0b3e15ec1fc95bc871fd776318b5f2051e392
+Filename: debs/com.iiemb.iikit_1.0.1_iphoneos-arm64e.deb
+Size: 44492
+MD5sum: de109daaebec6ea031ff1e3587f0697a
+SHA1: 9e8e3fedad3f56c41b55b3be210f337f4a3ad4e7
+SHA256: d6b28bb734491c41dac14c831572e7d174e87ec9ac67e65ab0835fb7e06b65a6
 Depiction: https://iiemb.github.io/repo/depictions/com.iiemb.iikit/
 SileoDepiction: https://iiemb.github.io/repo/depictions/com.iiemb.iikit/sileo.json
 
