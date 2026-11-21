@@ -44,14 +44,14 @@ SileoDepiction: https://iiemb.github.io/repo/depictions/com.iiemb.iikit/sileo.js
 
 Package: com.iiemb.nfctools
 Name: NFCTools
-Version: 0.7.13~beta+209
+Version: 0.7.14~beta+210
 Architecture: iphoneos-arm64
 Section: Applications
 Priority: optional
 Maintainer: IiemB <dev@local>
 Author: IiemB
 Depends: firmware (>= 15.0)
-Installed-Size: 7340
+Installed-Size: 7344
 Description: NFC diagnostics, virtual tag emulation and magic-card cloning
  Read and inspect NFC tags (UID, ATQA/SAK, NDEF, memory), save them to a local
  vault, emulate saved tags as virtual cards, and clone UIDs to magic cards.
@@ -60,24 +60,24 @@ Description: NFC diagnostics, virtual tag emulation and magic-card cloning
  The Control Center tiles and CLI come from the separate NFCTools Plus package,
  which depends on this one.
 Icon: https://iiemb.github.io/repo/assets/com.iiemb.nfctools/icon.png
-Filename: debs/NFCTools_0.7.13~beta+209_iphoneos-arm64.deb
-Size: 3486444
-MD5sum: 72ccc14ee37ea2d479a15b701eceec80
-SHA1: f3acba0e25eff1fd5075312869a1f581110cab66
-SHA256: b869a643cf7a4e2a1ba1354e39e10ff72a94f8888555f141529fce196f2d5a6d
+Filename: debs/NFCTools_0.7.14~beta+210_iphoneos-arm64.deb
+Size: 3490896
+MD5sum: 83e1558b6f199b1d1fbf68a16d043895
+SHA1: 28f42373a2117b46104959b4d9cad7a17237be62
+SHA256: 6e37441eca0c282c59139b50c89d0c01e39971f2513c409c1e9e7b01cd9e7269
 Depiction: https://iiemb.github.io/repo/depictions/com.iiemb.nfctools/
 SileoDepiction: https://iiemb.github.io/repo/depictions/com.iiemb.nfctools/sileo.json
 
 Package: com.iiemb.nfctools
 Name: NFCTools
-Version: 0.7.13~beta+209
+Version: 0.7.14~beta+210
 Architecture: iphoneos-arm64e
 Section: Applications
 Priority: optional
 Maintainer: IiemB <dev@local>
 Author: IiemB
 Depends: firmware (>= 15.0)
-Installed-Size: 7340
+Installed-Size: 7344
 Description: NFC diagnostics, virtual tag emulation and magic-card cloning
  Read and inspect NFC tags (UID, ATQA/SAK, NDEF, memory), save them to a local
  vault, emulate saved tags as virtual cards, and clone UIDs to magic cards.
@@ -86,17 +86,17 @@ Description: NFC diagnostics, virtual tag emulation and magic-card cloning
  The Control Center tiles and CLI come from the separate NFCTools Plus package,
  which depends on this one.
 Icon: https://iiemb.github.io/repo/assets/com.iiemb.nfctools/icon.png
-Filename: debs/NFCTools_0.7.13~beta+209_iphoneos-arm64e.deb
-Size: 3486358
-MD5sum: 64b114e4c4c31207588b3dc30ecec3f3
-SHA1: 56e76d6194329f1dfec074fc229b236d44b5e7f9
-SHA256: 52070aca45f522ccba8a24c364dc304316fa4d0fad980f3e9c2c22d2de43eb6b
+Filename: debs/NFCTools_0.7.14~beta+210_iphoneos-arm64e.deb
+Size: 3490848
+MD5sum: cfdb0db27aae68d8f6b5da305c707b5c
+SHA1: e29d2c2b79e1fefc7d7bc50bf7a1eff77d263f83
+SHA256: c1a0422f78b57777dfda5648b619c52959cf931b8737875e2119e2ffdbb8d230
 Depiction: https://iiemb.github.io/repo/depictions/com.iiemb.nfctools/
 SileoDepiction: https://iiemb.github.io/repo/depictions/com.iiemb.nfctools/sileo.json
 
 Package: com.iiemb.nfctoolsplus
 Name: NFCTools Plus
-Version: 0.7.13~beta+100
+Version: 0.7.14~beta+102
 Architecture: iphoneos-arm64
 Section: Tweaks
 Priority: optional
@@ -113,17 +113,17 @@ Description: Control Center quick-emulate tiles for the NFCTools app
  .
  Ships as a tweak only — the NFCTools app itself is installed separately as
  an .ipa through TrollStore.
-Filename: debs/NFCTools_Plus_0.7.13~beta+100_iphoneos-arm64.deb
-Size: 643374
-MD5sum: 8d646ad13526802190bd236b045fa3d5
-SHA1: af788c7c6b635489540d7fbfe5a39ca8dbe54fdc
-SHA256: dac461d256bfefbb4b611499e45ca757edc021376373aa8097296b608f88ff5d
+Filename: debs/NFCTools_Plus_0.7.14~beta+102_iphoneos-arm64.deb
+Size: 643400
+MD5sum: fcf3127488ed22a7a852f74cee80a4c5
+SHA1: e5d5059d03b5e3710572f7da7cce618ec7920d3a
+SHA256: 03344cd9c7b268954e7db684cd7a554d4d406f1e12e1b8eaf42271df76f6da82
 Depiction: https://iiemb.github.io/repo/depictions/com.iiemb.nfctoolsplus/
 SileoDepiction: https://iiemb.github.io/repo/depictions/com.iiemb.nfctoolsplus/sileo.json
 
 Package: com.iiemb.nfctoolsplus
 Name: NFCTools Plus
-Version: 0.7.13~beta+100
+Version: 0.7.14~beta+102
 Architecture: iphoneos-arm64e
 Section: Tweaks
 Priority: optional
@@ -140,10 +140,10 @@ Description: Control Center quick-emulate tiles for the NFCTools app
  .
  Ships as a tweak only — the NFCTools app itself is installed separately as
  an .ipa through TrollStore.
-Filename: debs/NFCTools_Plus_0.7.13~beta+100_iphoneos-arm64e.deb
-Size: 643332
-MD5sum: 5249d6d53726b93ed17d08b5061542c6
-SHA1: 9b214eb2489a102b3629719ba90588f0c59e0b0b
-SHA256: 5f9a4bdc7ecd89077d951f4144d91468c74cbf954f065bf23461aab1a2ad357c
+Filename: debs/NFCTools_Plus_0.7.14~beta+102_iphoneos-arm64e.deb
+Size: 643358
+MD5sum: 5feed0609d47b91e37371f6a7f0361c0
+SHA1: 51211108c0418c5af8bbcf4cc74a10e1af925ff9
+SHA256: 97f403c8bf2f0cb29b011543cfe46289a0a736490857582076adc89dbcccae20
 Depiction: https://iiemb.github.io/repo/depictions/com.iiemb.nfctoolsplus/
 SileoDepiction: https://iiemb.github.io/repo/depictions/com.iiemb.nfctoolsplus/sileo.json
